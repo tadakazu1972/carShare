@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--carportCheck　駐車場シェアリングサービス-->
+<!--Copyright (c) Office of ICT Strategy, City of Osaka-->
+<meta charset="utf-8">
+<style>
+//#screen { background-color : white; }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://rawgit.com/padolsey-archive/jquery.fn/master/cross-domain-ajax/jquery.xdomainajax.js"></script>
+<script type="text/javascript">
+
+//var targetURL="https://www.akippa.com/driver/searchparking?keyword=%E5%A4%A7%E9%98%AA%E5%B8%82&content=map"
+var targetURL = "http://www.city.osaka.lg.jp/"
+
+$.get(targetURL, function(data){
+  console.log(data);
+});
+
+</script>
+<body>
+</body>
